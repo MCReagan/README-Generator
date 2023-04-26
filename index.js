@@ -63,7 +63,6 @@ const questions = inquirer
                         }
                     ]).then(function (data) {
                         const license =`${data.license}`
-                        const title = (`${data.title}`.toLowerCase())
                         const README = `
 # ${data.title}
      
@@ -80,7 +79,7 @@ ${data.description}
 ## Table of Contents
 
 
-1. [Title](#${title})
+1. Title --- ${data.title}
 2. [Description](#description)
 3. [Installation](#installation)
 4. [Usage](#usage)
