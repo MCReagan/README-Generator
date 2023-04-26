@@ -63,6 +63,7 @@ const questions = inquirer
                         }
                     ]).then(function (data) {
                         const license =`${data.license}`
+                        const title = (`${data.title}`.toLowerCase())
                         const README = `
 # ${data.title}
      
@@ -79,7 +80,7 @@ ${data.description}
 ## Table of Contents
 
 
-1. [Title](#${data.title})
+1. [Title](#${title})
 2. [Description](#description)
 3. [Installation](#installation)
 4. [Usage](#usage)
@@ -110,7 +111,7 @@ ${data.usage}
 ---
 
 
-### License
+## License
 
 
 This project is licensed under the ${data.license}.
@@ -119,7 +120,7 @@ This project is licensed under the ${data.license}.
 ---
 
 
-### Contributing
+## Contributing
 
 
 ${data.contributing}
@@ -128,7 +129,7 @@ ${data.contributing}
 ---
 
 
-### Tests
+## Tests
 
 
 ${data.tests}
@@ -137,7 +138,7 @@ ${data.tests}
 ---
 
 
-### Questions
+## Questions
 
 
 For questions or comments, please email me at ${data.questions}.
