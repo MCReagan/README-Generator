@@ -28,16 +28,96 @@ const questions = inquirer
                             name: 'usage',
                         },
                         {
+                            type: 'list',
+                            name: 'license',
+                            message: 'What License does your project use?',
+                            choices: 'MIT License',
+                        },
+                        {
                             type: 'input',
                             message: 'Who contributed to this project? List contributors and references.',
                             name: 'contributing',
                         },
                         {
                             type: 'input',
-                            message: 'If a user has questions, how may they reach you?',
+                            message: 'What scenarios did you use to test your project? Be as detailed as possible.',
+                            name: 'tests'
+                        },
+                        {
+                            type: 'input',
+                            message: 'If a user has questions, where can they email you?',
                             name: 'questions'
+                        },
+                        {
+                            type: 'input',
+                            message: 'What is your Github profile link? Include https://',
+                            name: 'github',
                         }
-                    ]);
+                    ]).then(function (data) {
+                        const license =`${data.license}`
+                        const README = `
+                        # ${data.title}
+                        
+                        ---
+
+                        ## Description
+
+                        ${data.description}
+
+                        ---
+
+                        ## Table of Contents
+
+                        1. [Title](#${data.title})
+                        2. [Description](#description)
+                        3. [Installation](#installation)
+                        4. [Usage](#usage)
+                        5. [License](#license)
+                        6. [Contributing](#contributing)
+                        7. [Tests](#tests)
+                        8. [Questions](#questions)
+                        
+                        ---
+
+                        ## Installation
+
+                        ${data.installation}
+
+                        ---
+
+                        ## Usage
+
+                        ${data.usage}
+
+                        ---
+
+                        ### License
+
+                        This project is licensed under the ${data.license}.
+
+                        ---
+
+                        ### Contributing
+
+                        ${data.contributing}
+
+                        ---
+
+                        ### Tests
+
+                        ${data.tests}
+
+                        ---
+
+                        ### Questions
+
+                        For questions or comments, please email me at ${data.questions}.
+                        
+                        My Github profile is located at [${data.github}](${data.github}).
+
+                        ---
+                        `
+                    })
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
