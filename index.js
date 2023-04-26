@@ -8,8 +8,34 @@ const fs = require('fs');
 const questions = inquirer
                     .prompt([
                         {  
-                            
-
+                            type: 'input',
+                            message: 'What is the title of your project',
+                            name: 'title',
+                        },
+                        {
+                            type: 'input',
+                            message: 'Give a detailed description of what your project accomplishes. Include challenges you faced, technologies used, and what you would like to change in the future.',
+                            name: 'description',
+                        },
+                        {
+                            type: 'input',
+                            message: 'What are the steps to install your project?',
+                            name: 'installation',
+                        },
+                        {
+                            type: 'input',
+                            message: 'How does the user USE the project? Include steps to launch application as well as any known problems they might encounter.',
+                            name: 'usage',
+                        },
+                        {
+                            type: 'input',
+                            message: 'Who contributed to this project? List contributors and references.',
+                            name: 'contributing',
+                        },
+                        {
+                            type: 'input',
+                            message: 'If a user has questions, how may they reach you?',
+                            name: 'questions'
                         }
                     ]);
 
