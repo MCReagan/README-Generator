@@ -1,4 +1,6 @@
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # README Generator
      
 
@@ -14,14 +16,14 @@ This project was created to expedite the process of creating a uniform README th
 ## Table of Contents
 
 
-1. [Title](#readme generator)
-2. [Description](#description)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [License](#license)
-6. [Contributing](#contributing)
-7. [Tests](#tests)
-8. [Questions](#questions)
+Title --- README Generator
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 
 ---
@@ -30,7 +32,7 @@ This project was created to expedite the process of creating a uniform README th
 ## Installation
 
 
-To install this product, simply visit the Github link at the bottom of the page. Clone the repository titled "README Generator" to your local machine. Open with command prompt or vscode.
+To install this product, simply visit the Github link at the bottom of the page. Clone the repository titled "README Generator" to your local machine. Open with command prompt or vscode. To install dependencies, type npm i inquirer in terminal.
 
 
 ---
@@ -66,7 +68,7 @@ This project was created using Javascript, Node, Inquirer node package, fs node 
 ## Tests
 
 
-Several READMEs were generated using the software to confirm that it meets the required parameters.
+To test this application type node index.js in terminal.
 
 
 ---
