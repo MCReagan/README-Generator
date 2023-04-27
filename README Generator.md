@@ -79,7 +79,14 @@ To test this application type node index.js in terminal.
 
 For questions or comments, please email me at Emparode@gmail.com.
 
-My Github profile is located at [https://github.com/MCReagan/README-Generator](https://github.com/MCReagan/README-Generator).
+My Github profile is located at [https://github.com/MCReagan](https://github.com/MCReagan).
 
 
 ---
+
+
+## Links
+
+The repository for this project is located at [https://github.com/MCReagan/README-Generator](https://github.com/MCReagan/README-Generator)
+
+A walkthrough video can be found at [https://watch.screencastify.com/v/W6qQD7kf1Jdrlx6Daw3W](https://watch.screencastify.com/v/W6qQD7kf1Jdrlx6Daw3W)

@@ -1,13 +1,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Sample
+# sample
      
 
 ## Description
 
 
-Sampling different things using samples
+my project accomplishes something
 
 
 ---
@@ -16,7 +16,7 @@ Sampling different things using samples
 ## Table of Contents
 
 
-Title --- Sample
+Title --- sample
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -32,7 +32,7 @@ Title --- Sample
 ## Installation
 
 
-Sample
+install project
 
 
 ---
@@ -41,7 +41,7 @@ Sample
 ## Usage
 
 
-Use samples
+use project
 
 
 ---
@@ -59,7 +59,7 @@ This project is licensed under the MIT License.
 ## Contributing
 
 
-Me
+I contributed
 
 
 ---
@@ -68,7 +68,7 @@ Me
 ## Tests
 
 
-Test NPM
+command test
 
 
 ---
@@ -77,9 +77,9 @@ Test NPM
 ## Questions
 
 
-For questions or comments, please email me at email@google.com.
+For questions or comments, please email me at email@email.com.
 
-My Github profile is located at [www.github.com](www.github.com).
+My Github profile is located at [https://github.com/test](https://github.com/test).
 
 
 ---
